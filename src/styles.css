@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+    background-color: cadetblue;
+}
+
+.head {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.desc {
+    width: 50vw;
+}
+
+button {
+    height: 25px;
+    width: 50px;
+    background-color: brown;
+}

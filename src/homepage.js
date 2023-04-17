@@ -9,7 +9,7 @@ function homePage() {
     savory dishes we will make fresh for you. ` + `<br>` + `<br>` + `Stop in to This Italian Restaurant today and see what you've been missing!
     `
     
-    container.classList.add('container');
+    container.classList.add('homepage-container');
     container.append(description);
     
     return container;

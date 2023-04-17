@@ -2,25 +2,54 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100vw;
-    height: auto;
+    height: 100vh;
+
+    background-color: bisque;
+
+    display: absolute;
 }
 
 #content {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 
-    background-color: bisque;
 }
 
-.container {
+.main-con {
+    width: 100vw;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: lightgray;
+}
+
+.main-con:has(.menu-container) {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.head-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 8vh;
+}
+
+.homepage-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    width: 100%;
 
     background-color: cadetblue;
+    height: 100%;
+    width: 100%;
 }
 
 .head {
@@ -32,8 +61,72 @@ body {
     width: 50vw;
 }
 
+.btn-wrapper {
+    display: flex;
+    gap: 32px;
+    padding: 8px;
+}
+
 button {
     height: 25px;
-    width: 50px;
+    width: auto;
     background-color: brown;
+}
+
+.foot {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-around;
+    gap: 24px;
+
+    height: fit-content;
+    width: 100%;
+    padding: 24px 0px 24px 0px;
+
+    display: relative;
+
+    background-color: darkolivegreen;
+}
+
+.menu-item {
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 8px;
+    padding: 12px;
+
+    background-color: brown;
+    border: 2px solid maroon;
+    border-radius: 15px;
+}
+
+.item-desc {
+    width: 75%;
+
+    text-align: center;
+}
+
+.item-pic {
+    width: 150px;
+    height: 150px;
+    background-color: red;
 }

@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n    margin: 0px;\\n    padding: 0px;\\n    width: 100vw;\\n    height: 100vh;\\n\\n    background-color: bisque;\\n\\n    display: absolute;\\n}\\n\\n#content {\\n    height: 100vh;\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-between;\\n\\n}\\n\\n.main-con {\\n    width: 100vw;\\n    height: 100%;\\n\\n    display: flex;\\n    justify-content: center;\\n\\n    background-color: lightgray;\\n}\\n\\n.main-con:has(.menu-container) {\\n    overflow: scroll;\\n    overflow-x: hidden;\\n}\\n\\n.head-wrap {\\n    display: flex;\\n    justify-content: space-evenly;\\n    align-items: center;\\n\\n    height: 8vh;\\n}\\n\\n.homepage-container {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    justify-content: center;\\n    text-align: center;\\n\\n    background-color: cadetblue;\\n    height: 100%;\\n    width: 100%;\\n}\\n\\n.head {\\n    font-size: 2rem;\\n    text-align: center;\\n}\\n\\n.desc {\\n    width: 50vw;\\n}\\n\\n.btn-wrapper {\\n    display: flex;\\n    gap: 32px;\\n    padding: 8px;\\n}\\n\\nbutton {\\n    height: 25px;\\n    width: auto;\\n    background-color: brown;\\n}\\n\\n.foot {\\n    height: 10vh;\\n    width: 100%;\\n    text-align: center;\\n\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-evenly;\\n}\\n\\n.links {\\n    display: flex;\\n    justify-content: space-evenly;\\n}\\n\\n.menu-container {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    justify-items: space-around;\\n    gap: 24px;\\n\\n    height: fit-content;\\n    width: 100%;\\n    padding: 24px 0px 24px 0px;\\n\\n    display: relative;\\n\\n    background-color: darkolivegreen;\\n}\\n\\n.menu-item {\\n    width: 75%;\\n\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n\\n    gap: 8px;\\n    padding: 12px;\\n\\n    background-color: brown;\\n    border: 2px solid maroon;\\n    border-radius: 15px;\\n}\\n\\n.item-desc {\\n    width: 75%;\\n\\n    text-align: center;\\n}\\n\\n.item-pic {\\n    width: 150px;\\n    height: 150px;\\n    background-color: red;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://project-restaurant_page/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n    margin: 0px;\\n    padding: 0px;\\n    width: 100vw;\\n    height: 100vh;\\n\\n    background-color: bisque;\\n\\n    display: absolute;\\n}\\n\\n#content {\\n    height: 100vh;\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-between;\\n\\n}\\n\\n.main-con {\\n    width: 100vw;\\n    height: 100%;\\n\\n    display: flex;\\n    justify-content: center;\\n\\n    background-color: lightgray;\\n}\\n\\n.main-con:has(.menu-container) {\\n    overflow: scroll;\\n    overflow-x: hidden;\\n}\\n\\n.head-wrap {\\n    display: flex;\\n    justify-content: space-evenly;\\n    align-items: center;\\n\\n    height: 8vh;\\n}\\n\\n.homepage-container {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    justify-content: center;\\n    text-align: center;\\n\\n    background-color: cadetblue;\\n    height: 100%;\\n    width: 100%;\\n}\\n\\n.head {\\n    font-size: 2rem;\\n    text-align: center;\\n}\\n\\n.desc {\\n    width: 50vw;\\n}\\n\\n.btn-wrapper {\\n    display: flex;\\n    gap: 32px;\\n    padding: 8px;\\n}\\n\\nbutton {\\n    height: 25px;\\n    width: auto;\\n    background-color: brown;\\n}\\n\\n.foot {\\n    height: 10vh;\\n    width: 100%;\\n    text-align: center;\\n\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-evenly;\\n}\\n\\n.links {\\n    display: flex;\\n    justify-content: space-evenly;\\n}\\n\\n.menu-container {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    gap: 24px;\\n\\n    height: fit-content;\\n    width: 100%;\\n    padding: 24px 0px 24px 0px;\\n\\n    background-color: darkolivegreen;\\n}\\n\\n.menu-item {\\n    width: 75%;\\n\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n\\n    gap: 8px;\\n    padding: 12px;\\n\\n    background-color: brown;\\n    border: 2px solid maroon;\\n    border-radius: 15px;\\n}\\n\\n.item-desc {\\n    width: 75%;\\n\\n    text-align: center;\\n}\\n\\n.item-pic {\\n    width: 150px;\\n    height: 150px;\\n    background-color: red;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://project-restaurant_page/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -169,7 +169,51 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction menu() {\n    const container = document.createElement('div');\n    container.classList.add('menu-container');\n\n    const menuItems = [\n        {\n            name: 'Chicken Parmigiano',\n            description: \n                'An Italian classic - spaghetti noodles topped with our finest cut of chicken breast, then drenched in our house-made red sauce and covered with parmigiano cheese.',\n            price: 14.99,\n            pic: '../imgs/parm.png',\n        },\n        {\n            name: 'Spicy Shrimp Scampi',\n            description:\n                'Traditional with a bit of a kick. Our cooks have taken this meal to the next level by adding a nice spicy finish. Topped on full plate of linguini noodles.',\n            price: 19.99,\n            pic: '../imgs/scampi',\n        },\n        {\n            name: 'Spaghetti and Meatballs',\n            description:\n                'A staple for any Italian Restaurant, this is not to be missed. Our meatballs are so flavorful, and the combination with our red sauce will have you screaming \"SPAGHET!!\"',\n            price: 13.99,\n            pic: '../imgs/spaghetti.jpg',\n        },\n        {\n            name: 'Pizza',\n            description:\n                'Who can hate on a good ol\\' pizza. Ask your server for a toppings menu - our pies come in 12\", 16\", and 20\" sizes.',\n            price: {\n                small: 9.99, \n                medium: 12.99, \n                large: 16.99\n            },\n            pic: '../imgs/pizza.jpg',\n        },\n    ];\n\n    menuItems.forEach(item => {\n        let itemHeader = document.createElement('div');\n        itemHeader.classList.add('item-header');\n        itemHeader.textContent = item.name;\n\n        let itemPic = document.createElement('img');\n        itemPic.classList.add('item-pic');\n        itemPic.src = item.pic;\n        itemPic.alt = item.name;\n\n        let itemDesc = document.createElement('div');\n        itemDesc.classList.add('item-desc');\n        itemDesc.textContent = item.description;\n\n        let itemPrice = document.createElement('div');\n        itemPrice.classList.add('item-price');\n        if (item.name === \"Pizza\") {\n            itemPrice.textContent = `Small: ${item.price.small} / Medium: ${item.price.medium} / Large: ${item.price.large}`\n        } else {\n            itemPrice.textContent = item.price.toString();\n        };\n\n        let menuItem = document.createElement('div');\n        menuItem.classList.add('menu-item');\n        menuItem.append(itemHeader, itemPic, itemDesc, itemPrice);\n\n        container.append(menuItem);\n    });\n\n    return container;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menu);\n\n//# sourceURL=webpack://project-restaurant_page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _imgs_parm_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../imgs/parm.png */ \"./imgs/parm.png\");\n/* harmony import */ var _imgs_scampi_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../imgs/scampi.jpeg */ \"./imgs/scampi.jpeg\");\n/* harmony import */ var _imgs_spaghetti_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../imgs/spaghetti.jpg */ \"./imgs/spaghetti.jpg\");\n/* harmony import */ var _imgs_pizza_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../imgs/pizza.jpg */ \"./imgs/pizza.jpg\");\n\n\n\n\n\n\nfunction menu() {\n    const container = document.createElement('div');\n    container.classList.add('menu-container');\n\n    const menuItems = [\n        {\n            name: 'Chicken Parmigiano',\n            description: \n                'An Italian classic - spaghetti noodles topped with our finest cut of chicken breast, then drenched in our house-made red sauce and covered with parmigiano cheese.',\n            price: 14.99,\n            pic: _imgs_parm_png__WEBPACK_IMPORTED_MODULE_0__,\n        },\n        {\n            name: 'Spicy Shrimp Scampi',\n            description:\n                'Traditional with a bit of a kick. Our cooks have taken this meal to the next level by adding a nice spicy finish. Topped on full plate of linguini noodles.',\n            price: 19.99,\n            pic: _imgs_scampi_jpeg__WEBPACK_IMPORTED_MODULE_1__,\n        },\n        {\n            name: 'Spaghetti and Meatballs',\n            description:\n                'A staple for any Italian Restaurant, this is not to be missed. Our meatballs are so flavorful, and the combination with our red sauce will have you screaming \"SPAGHET!!\"',\n            price: 13.99,\n            pic: _imgs_spaghetti_jpg__WEBPACK_IMPORTED_MODULE_2__,\n        },\n        {\n            name: 'Pizza',\n            description:\n                'Who can hate on a good ol\\' pizza. Ask your server for a toppings menu - our pies come in 12\", 16\", and 20\" sizes.',\n            price: {\n                small: 9.99, \n                medium: 12.99, \n                large: 16.99\n            },\n            pic: _imgs_pizza_jpg__WEBPACK_IMPORTED_MODULE_3__,\n        },\n    ];\n\n    menuItems.forEach(item => {\n        let itemHeader = document.createElement('div');\n        itemHeader.classList.add('item-header');\n        itemHeader.textContent = item.name;\n\n        let itemPic = document.createElement('img');\n        itemPic.classList.add('item-pic');\n        itemPic.src = item.pic;\n        itemPic.alt = item.name;\n\n        let itemDesc = document.createElement('div');\n        itemDesc.classList.add('item-desc');\n        itemDesc.textContent = item.description;\n\n        let itemPrice = document.createElement('div');\n        itemPrice.classList.add('item-price');\n        if (item.name === \"Pizza\") {\n            itemPrice.textContent = `Small: ${item.price.small} / Medium: ${item.price.medium} / Large: ${item.price.large}`\n        } else {\n            itemPrice.textContent = item.price.toString();\n        };\n\n        let menuItem = document.createElement('div');\n        menuItem.classList.add('menu-item');\n        menuItem.append(itemHeader, itemPic, itemDesc, itemPrice);\n\n        container.append(menuItem);\n    });\n\n    return container;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menu);\n\n//# sourceURL=webpack://project-restaurant_page/./src/menu.js?");
+
+/***/ }),
+
+/***/ "./imgs/parm.png":
+/*!***********************!*\
+  !*** ./imgs/parm.png ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"8e92433153f51752e1c2.png\";\n\n//# sourceURL=webpack://project-restaurant_page/./imgs/parm.png?");
+
+/***/ }),
+
+/***/ "./imgs/pizza.jpg":
+/*!************************!*\
+  !*** ./imgs/pizza.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"3465420826def7e78e4b.jpg\";\n\n//# sourceURL=webpack://project-restaurant_page/./imgs/pizza.jpg?");
+
+/***/ }),
+
+/***/ "./imgs/scampi.jpeg":
+/*!**************************!*\
+  !*** ./imgs/scampi.jpeg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"06256925975339befb84.jpeg\";\n\n//# sourceURL=webpack://project-restaurant_page/./imgs/scampi.jpeg?");
+
+/***/ }),
+
+/***/ "./imgs/spaghetti.jpg":
+/*!****************************!*\
+  !*** ./imgs/spaghetti.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"62fa8c842b54822287a3.jpg\";\n\n//# sourceURL=webpack://project-restaurant_page/./imgs/spaghetti.jpg?");
 
 /***/ })
 
@@ -262,6 +306,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

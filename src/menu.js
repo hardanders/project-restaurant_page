@@ -48,7 +48,7 @@ function menu() {
         itemHeader.classList.add('item-header');
         itemHeader.textContent = item.name;
 
-        let itemPic = document.createElement('img');
+        let itemPic = new Image();
         itemPic.classList.add('item-pic');
         itemPic.src = item.pic;
         itemPic.alt = item.name;
